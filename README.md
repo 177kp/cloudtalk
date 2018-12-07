@@ -19,19 +19,15 @@
 2. xxxx
 3. xxxx
 
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
 
 
-#### 码云特技
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+ **特别声明** 
+ 本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
+
+
+感谢以下开源项目提供强有力的支持:
+
+[t-io 不仅仅百万并发框架](https://gitee.com/tywo45/t-io)  cloudtalk 中的 websocket 模块基于tio开发，为 h5/wss 提供强有力的支持!
+
+[ J-IM](https://gitee.com/xchao/j-im) 非常不错的基于tio的即时通讯服务端!
