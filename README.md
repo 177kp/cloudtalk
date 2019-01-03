@@ -8,6 +8,7 @@
 
 
 #### App截图
+
 ![会话界面](https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png "screenshot_20190103_092934.png")
 
 ![通讯录](https://images.gitee.com/uploads/images/2019/0103/093128_023ac1a6_494527.png "screenshot_20190103_092726.png")
@@ -24,6 +25,8 @@
 
 ![发送位置](https://images.gitee.com/uploads/images/2019/0103/093359_3cc12a22_494527.png "screenshot_20190103_092827.png")
 
+
+![音视频通话](https://images.gitee.com/uploads/images/2019/0103/093720_f3fd5f0c_494527.png "screenshot_20190103_092923.png")
 
  **特别声明** 
  本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
