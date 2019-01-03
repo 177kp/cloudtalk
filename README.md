@@ -4,22 +4,25 @@
 专注于 企业云布署 的即时通讯系统，基于teamtalk开源项目二次开发,群集布置效果优化,业务模块与底层分离，能快速与自已现有系统对接。支持 andoird  ios  mac windows h5/小程序 HttpApi  是全网唯一支持全平台布署的互联网即时通讯系统。
 
 #### 软件架构
-软件架构说明
+![架构草图](https://images.gitee.com/uploads/images/2019/0103/093419_a72a1f1d_494527.png "im.png")
 
 
-#### 安装教程
+#### App截图
+![会话界面](https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png "screenshot_20190103_092934.png")
 
-1. xxxx
-2. xxxx
-3. xxxx
+![通讯录](https://images.gitee.com/uploads/images/2019/0103/093128_023ac1a6_494527.png "screenshot_20190103_092726.png")
 
-#### 使用说明
+![发现](https://images.gitee.com/uploads/images/2019/0103/093157_7dcf2acd_494527.png "screenshot_20190103_092734.png")
 
-1. xxxx
-2. xxxx
-3. xxxx
+![群列表](https://images.gitee.com/uploads/images/2019/0103/093232_d8826898_494527.png "screenshot_20190103_092750.png")
 
+![新的朋友](https://images.gitee.com/uploads/images/2019/0103/093254_82a327e5_494527.png "screenshot_20190103_092759.png")
 
+![聊天页面](https://images.gitee.com/uploads/images/2019/0103/093317_808871da_494527.png "screenshot_20190103_092906.png")
+
+![云表情页面](https://images.gitee.com/uploads/images/2019/0103/093338_c5da6e8e_494527.png "screenshot_20190103_092845.png")
+
+![发送位置](https://images.gitee.com/uploads/images/2019/0103/093359_3cc12a22_494527.png "screenshot_20190103_092827.png")
 
 
  **特别声明** 
