@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: cloudtalk-websocket
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: chenwang
+Implementation-Vendor-Id: org.springframework.boot
+Build-Jdk: 1.8.0_144
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/cloudtalk-websocket
+Created-By: Maven Integration for Eclipse
+

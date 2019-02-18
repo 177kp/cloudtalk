@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhangwuji.im.api.mapper.IMGroupMapper">
+    <!-- 定义resultMap，type为HashMap -->
+    <resultMap id="BaseMap" type="java.util.HashMap">
+    </resultMap>
+
+    <!-- 查询语句 -->
+    <select id="getGroupList" resultMap="BaseMap">
+        select * from on_IMGroup where  id in
+        <foreach  item="item" collection="array" index="index"  open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+</mapper>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.t-io:tio-http-common:3.2.1.v20181024-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/t-io/tio-http-common/3.2.1.v20181024-RELEASE/tio-http-common-3.2.1.v20181024-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/t-io/tio-http-common/3.2.1.v20181024-RELEASE/tio-http-common-3.2.1.v20181024-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/t-io/tio-http-common/3.2.1.v20181024-RELEASE/tio-http-common-3.2.1.v20181024-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
