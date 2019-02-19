@@ -59,7 +59,7 @@ get_cur_dir() {
 build_mariadb_devel(){
     CENTOS_VERSION=$(less /etc/redhat-release)
     #echo "$OS_VERSION, $OS_BIT bit..." 
-    if [[ $CENTOS_VERSION =~ "7.0" ]]; then
+    if [[ $CENTOS_VERSION =~ "7." ]]; then
         yum -y install mariadb-devel
     else
         echo "centos version must >=7.0 !!!"
