@@ -194,7 +194,8 @@ build() {
     cp sync_lib_for_zip.sh ../$build_version/
 
     cp tools/daeml ../$build_version/
-    cp ../run/restart.sh ../$build_version/
+    cp ./restart.sh ../$build_version/
+    cp ./restart2.sh ../$build_version/
 
     cd ../
     tar zcvf    $build_name $build_version
