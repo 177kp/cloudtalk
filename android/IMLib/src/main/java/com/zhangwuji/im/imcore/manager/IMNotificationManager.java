@@ -232,7 +232,7 @@ public class IMNotificationManager extends IMManager{
 			return;
 		}
 
-		Builder builder = new NotificationCompat.Builder(ctx);
+		Builder builder = new NotificationCompat.Builder(ctx,"com.zhangwuji.im");
 		builder.setContentTitle(title);
 		builder.setContentText(ticker);
 		builder.setSmallIcon(R.drawable.tt_small_icon);
@@ -269,7 +269,7 @@ public class IMNotificationManager extends IMManager{
 		PendingIntent pendingIntent = PendingIntent.getActivity(ctx, notificationId, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 		builder.setContentIntent(pendingIntent);
 		Notification notification = builder.build();
-		notifyMgr.notify(notificationId, notification);
+        notifyMgr.notify(notificationId, notification);
 	}
 
 	// come from

@@ -1,11 +1,15 @@
 package com.zhangwuji.im.imcore.service;
 
 import android.app.Notification;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Binder;
+import android.os.Build;
 import android.os.IBinder;
+import android.support.v4.app.NotificationCompat;
 
 import com.zhangwuji.im.DB.DBInterface;
 import com.zhangwuji.im.DB.entity.Message;
@@ -79,7 +83,32 @@ public class IMService extends Service {
 		// make the service foreground, so stop "360 yi jian qingli"(a clean
 		// tool) to stop our app
 		// todo eric study wechat's mechanism, use a better solution
-		startForeground((int) System.currentTimeMillis(), new Notification());
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+
+            String CHANNEL_ONE_ID = "com.zhangwuji.im";
+            String CHANNEL_ONE_NAME = "cloudtalk";
+
+            NotificationChannel channel = new NotificationChannel(CHANNEL_ONE_ID, CHANNEL_ONE_NAME, NotificationManager.IMPORTANCE_LOW);
+            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+            if (manager == null)
+                return;
+            manager.createNotificationChannel(channel);
+
+            Notification notification = new NotificationCompat.Builder(this, CHANNEL_ONE_ID)
+                    .setAutoCancel(true)
+                    .setCategory(Notification.CATEGORY_SERVICE)
+                    .setOngoing(true)
+                    .setPriority(NotificationManager.IMPORTANCE_LOW)
+                    .build();
+
+            startForeground(101, notification);
+
+        }
+        else
+        {
+            startForeground((int) System.currentTimeMillis(), new Notification());
+        }
 	}
 
 	@Override

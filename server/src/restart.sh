@@ -52,6 +52,9 @@ case $1 in
   db_proxy_server)
   restart $1
   ;;
+     msfs)
+    restart $1
+    ;;
 	*)
 		echo "Usage: "
 		echo "  ./restart.sh (msg_server|route_server|http_msg_server|file_server|push_server)"

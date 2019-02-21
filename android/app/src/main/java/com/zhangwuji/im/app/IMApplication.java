@@ -3,6 +3,7 @@ package com.zhangwuji.im.app;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.multidex.MultiDex;
 import android.support.multidex.MultiDexApplication;
 
@@ -47,7 +48,11 @@ public class IMApplication extends MultiDexApplication {
 		logger.i("start IMService");
 		Intent intent = new Intent();
 		intent.setClass(this, IMService.class);
-		startService(intent);
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+			startForegroundService(intent);
+		} else {
+			startService(intent);
+		}
 	}
 
 	public static boolean gifRunning = true;//gif是否运行
