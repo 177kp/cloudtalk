@@ -298,10 +298,10 @@ void CGroupChat::HandleClientGroupCreateRequest(CImPdu* pPdu, CMsgConn* pFromCon
 	uint32_t req_user_id = pFromConn->GetUserId();
     string group_name = msg.group_name();
     uint32_t group_type = msg.group_type();
-    if (group_type == IM::BaseDefine::GROUP_TYPE_NORMAL) {
-        log("HandleClientGroupCreateRequest, create normal group failed, req_id=%u, group_name=%s. ", req_user_id, group_name.c_str());
-        return;
-    }
+//    if (group_type == IM::BaseDefine::GROUP_TYPE_NORMAL) {
+//        log("HandleClientGroupCreateRequest, create normal group failed, req_id=%u, group_name=%s. ", req_user_id, group_name.c_str());
+//        return;
+//    }
 	string group_avatar = msg.group_avatar();
 	uint32_t user_cnt = msg.member_id_list_size();
 	log("HandleClientGroupCreateRequest, req_id=%u, group_name=%s, avatar_url=%s, user_cnt=%u ",
