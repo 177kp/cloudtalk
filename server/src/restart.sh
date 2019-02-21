@@ -31,9 +31,6 @@ function restart() {
 }
 
 case $1 in
-	login_server)
-		restart $1
-		;;
 	msg_server)
 		restart $1
 		;;
