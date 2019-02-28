@@ -79,7 +79,7 @@ public class ApiController {
 
     @RequestMapping(value = "test", method = RequestMethod.GET,produces="application/json;charset=UTF-8")
     public Object test(HttpServletRequest req,HttpServletResponse rsp) {
-    	rsp.addHeader("Access-Control-Allow-Origin", "*");
+    	
 
 		controllerUtil.sendIMSystemMessage(137,4,"FRIEND_INVITE");
 
@@ -88,7 +88,7 @@ public class ApiController {
 
 	@RequestMapping(value = "addFriend", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult addFriend(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnFriendsList = new LinkedList<>();
@@ -156,7 +156,7 @@ public class ApiController {
 
 	@RequestMapping(value = "agreeFriend", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult agreeFriend(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnFriendsList = new LinkedList<>();
@@ -223,7 +223,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getFriends", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getFriends(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnFriendsList = new LinkedList<>();
@@ -261,7 +261,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getNewFriends", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getNewFriends(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnFriendsList = new LinkedList<>();
@@ -283,7 +283,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getGroupMembers", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getGroupMembers(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 
@@ -308,7 +308,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getGroupList", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getGroupList(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnGrouplist = new LinkedList<>();
@@ -359,7 +359,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getGroupInfo", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getGroupInfo(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		List<Map<String, Object>> returnGrouplist = new LinkedList<>();
@@ -405,7 +405,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getChatRoomList", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getChatRoomList(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		Map<String, Double> geodata = new HashMap<>();
@@ -431,7 +431,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getNearByUser", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getNearByUser(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult=new ApiResult();
 		Map<String, Object> returnData=new HashMap<>();
 		Map<String, Double> geodata=new HashMap<>();
@@ -533,7 +533,7 @@ public class ApiController {
 
 	@RequestMapping(value = "reg", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult reg(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult = new ApiResult();
 		Map<String, Object> returnData = new HashMap<>();
 		ServerInfoEntity serverinfo = new ServerInfoEntity();
@@ -596,7 +596,7 @@ public class ApiController {
     
     @RequestMapping(value = "checkLogin", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
     public ApiResult checkLogin(HttpServletRequest req, HttpServletResponse rsp) {
-    	rsp.addHeader("Access-Control-Allow-Origin", "*");
+    //	
     	ApiResult returnResult=new ApiResult();
     	Map<String, Object> returnData=new HashMap<>();
 		ServerInfoEntity serverinfo=new ServerInfoEntity();
@@ -663,7 +663,7 @@ public class ApiController {
 
 	@RequestMapping(value = "getUserInfo", method = RequestMethod.POST,produces="application/json;charset=UTF-8")
 	public ApiResult getUserInfo(HttpServletRequest req, HttpServletResponse rsp) {
-		rsp.addHeader("Access-Control-Allow-Origin", "*");
+		
 		ApiResult returnResult=new ApiResult();
 		Map<String, Object> returnData=new HashMap<>();
 
@@ -697,7 +697,7 @@ public class ApiController {
 
     @RequestMapping(value = "getSrvInfo", method = RequestMethod.GET,produces="application/json;charset=UTF-8")
     public ApiResult getSrvInfo(HttpServletRequest req, HttpServletResponse rsp) {
-    	rsp.addHeader("Access-Control-Allow-Origin", "*");
+    	
     	ApiResult returnResult=new ApiResult();
     	Map<String, Object> returnData=new HashMap<>();
 		ServerInfoEntity serverinfo=new ServerInfoEntity();
