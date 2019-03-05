@@ -11,11 +11,10 @@
 	在正式编译服务端之前，请先执行server/src目录下的：
 	make_log4cxx.sh
 	make_protobuf.sh
-
+	make_hiredis.sh
 	这些脚本会先安装以上依赖。
 
-	如果安装了宝塔面板，并且安装了mysql和redis库后，就不用运行下面的两个脚本，如果没有安装宝塔面板，你需要自行安装所需环境，并且运行下面两个脚本:
-	make_hiredis.sh
+	如果安装了宝塔面板，并且安装了mysql和redis库后，就不用运行下面的两个脚本，如果没有安装宝塔面板，你需要自行安装所需环境，并且运行下面脚本:
     make_mariadb.sh
 	
 ## 2、编译协议文件
