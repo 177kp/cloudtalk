@@ -5,7 +5,7 @@
 
 官方技术交流QQ群:6445609 (请先star后，加群验证留言 提供码账号，否则不给通过。)
 
-项目详细编译文档与安装文档正在准备中，预计三月初出来。有兴趣的请进群关注.
+项目详细编译文档在doc目录下面，QQ群内已经提供web,ios等码代码抢先下载，稍后再同步到gitee上。
 
 cloudtalk android 测试包: https://gitee.com/pwsns/cloudtalk/releases/1.0
 
