@@ -3,7 +3,9 @@
    CloudTalk需要 CentOs7.0 以上版本。推荐使用纯净的新系统进行安装。
    在安装前，推荐安装使用Bt.cn的宝塔服务器管理平台，管理安装所需要的数据库,网站等。安全,方便，专业.安装命令如下:
 
-   yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.sh
+   宝塔运维平台介绍url: https://www.bt.cn/?invite_code=MV9weHdhYmg=
+
+    yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && bash install.sh
 
     安装完宝塔面板后，请在后台管理里面，安装数据库 Mysql 5.6.x，Redis，Java 1.8以上版本等环境。
 
