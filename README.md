@@ -10,6 +10,7 @@
 项目详细编译文档在doc目录下面，QQ群内已经提供web,ios等码代码抢先下载，稍后再同步到gitee上。
 
 cloudtalk android 测试包: https://gitee.com/pwsns/cloudtalk/releases/1.0
+
 cloddtalk windows PC测试包 https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
 
 
@@ -17,7 +18,18 @@ cloddtalk windows PC测试包 https://gitee.com/pwsns/cloudtalk/attach_files/252
 ![架构草图](https://images.gitee.com/uploads/images/2019/0103/094012_5bf53aa1_494527.png "imnew.png")
 
 
+
+#### Windows截图
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084521_e8420359_494527.png "QQ图片20190705084245.png")
+
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084534_673675f0_494527.png "QQ图片20190705084254.png")
+
+
 #### App截图
+
+
 
 ![会话界面](https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png "screenshot_20190103_092934.png")
 
