@@ -9,9 +9,9 @@
 
 项目详细编译文档在doc目录下面，QQ群内已经提供web,ios等码代码抢先下载，稍后再同步到gitee上。
 
-cloudtalk android 测试包: https://gitee.com/pwsns/cloudtalk/releases/1.0
+ **cloudtalk android 测试包: https://gitee.com/pwsns/cloudtalk/releases/1.0
 
-cloddtalk windows PC测试包 https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
+cloddtalk windows PC测试包 https://gitee.com/pwsns/cloudtalk/attach_files/252578/download** 
 
 
 #### 软件架构
