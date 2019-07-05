@@ -11,7 +11,7 @@
 
  **cloudtalk android 测试包:**  https://gitee.com/pwsns/cloudtalk/releases/1.0
 
- **cloddtalk windows PC测试包**  https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
+ **cloudtalk windows PC测试包**  https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
 
 
 #### 软件架构
