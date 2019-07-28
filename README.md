@@ -11,6 +11,8 @@
 
  **cloudtalk web 测试版:**   http://webim.b56.cn    
 
+![web版截图](https://images.gitee.com/uploads/images/2019/0728/222646_974d183f_494527.jpeg "1564323928048.jpg")
+
  **cloudtalk android 测试包:**  https://gitee.com/pwsns/cloudtalk/releases/1.0
 
  **cloudtalk windows PC测试包**  https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
