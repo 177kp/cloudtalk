@@ -62,5 +62,3 @@
 感谢以下开源项目提供强有力的支持:
 
 [t-io 不仅仅百万并发框架](https://gitee.com/tywo45/t-io)  cloudtalk 中的 websocket 模块基于tio开发，为 h5/wss 提供强有力的支持!
-
-[ J-IM](https://gitee.com/xchao/j-im) 非常不错的基于tio的即时通讯服务端!
