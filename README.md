@@ -59,8 +59,10 @@
  **特别声明**
  本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
 
-官方技术交流QQ群:6445609 (请先star后，加群邀请时提供码账号，否则不给通过。)
+官方技术交流QQ群(先star,后打赏任意金额加群):6445609 (请先star后，打赏任意金额(防止广告与恶意加群)，加群邀请时提供码账号，否则不给通过。)
 
-感谢以下开源项目提供强有力的支持:
+欢迎打赏,为后续开发注入动力!!  cloudtalk3.0即将发布,请关注 [开发者支持论坛](https://b56.cn)
 
-[t-io 不仅仅百万并发框架](https://gitee.com/tywo45/t-io)  cloudtalk 中的 websocket 模块基于tio开发，为 h5/wss 提供强有力的支持!
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1201/172450_ea7a4d38_494527.jpeg "WechatIMG5.jpeg")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1201/172459_698c1071_494527.jpeg "WechatIMG4.jpeg")
+
