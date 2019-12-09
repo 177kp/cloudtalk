@@ -65,6 +65,7 @@
 
 欢迎打赏,为后续开发注入动力!!  cloudtalk3.0即将发布,请关注 [开发者支持论坛](https://b56.cn)   
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1201/172450_ea7a4d38_494527.jpeg "WechatIMG5.jpeg")
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1201/172459_698c1071_494527.jpeg "WechatIMG4.jpeg")
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1209/182328_e48f65ba_494527.png "alipay.png")
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/1209/182336_2437ce38_494527.png "weixin.png")
 
