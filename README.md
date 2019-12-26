@@ -17,7 +17,7 @@
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0728/223818_146a4ae9_494527.jpeg "D6E212450FF7764B2D1CD7E366226E63.jpg")
 
- **cloudtalk android 测试包:**  https://gitee.com/pwsns/cloudtalk/releases/1.0
+ **cloudtalk android 测试包:**  https://gitee.com/pwsns/cloudtalk/attach_files/318416/download
 
  **cloudtalk windows PC测试包**  https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
 
