@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Class-Path: jackson-core-2.9.5.jar commons-pool2-2.5.0.jar slf4j-api-1
+ .7.25.jar micrometer-core-1.0.3.jar druid-1.0.29.jar spring-jdbc-5.0.
+ 5.RELEASE.jar LatencyUtils-2.0.3.jar log4j-to-slf4j-2.10.0.jar netty-
+ 3.2.10.Final.jar logback-classic-1.2.3.jar spring-context-5.0.5.RELEA
+ SE.jar spring-boot-starter-tomcat-2.0.1.RELEASE.jar reflectasm-1.11.7
+ .jar mybatis-plus-core-3.0.3.jar tio-websocket-common-3.2.1.v20181024
+ -RELEASE.jar logback-core-1.2.3.jar spring-data-commons-2.0.6.RELEASE
+ .jar spring-aop-5.0.5.RELEASE.jar tio-core-3.2.1.v20181024-RELEASE.ja
+ r javax.annotation-api-1.3.2.jar classmate-1.3.4.jar commons-lang3-3.
+ 7.jar freemarker-2.3.23.jar spring-boot-starter-json-2.0.1.RELEASE.ja
+ r tomcat-embed-el-8.5.29.jar spring-tx-5.0.5.RELEASE.jar jcl-over-slf
+ 4j-1.7.25.jar ehcache-2.10.4.jar jackson-datatype-jsr310-2.9.5.jar sp
+ ring-oxm-5.0.5.RELEASE.jar commons-codec-1.11.jar logback-access-1.2.
+ 3.jar mybatis-plus-boot-starter-3.0.3.jar tio-utils-3.2.1.v20181024-R
+ ELEASE.jar spring-boot-autoconfigure-2.0.1.RELEASE.jar jackson-dataty
+ pe-jdk8-2.9.5.jar spring-boot-configuration-processor-2.0.1.RELEASE.j
+ ar log4j-over-slf4j-1.7.25.jar fastjson-1.2.54.jar mysql-connector-ja
+ va-5.1.46.jar velocity-engine-core-2.0.jar mybatis-3.4.6.jar tio-http
+ -common-3.2.1.v20181024-RELEASE.jar spring-expression-5.0.5.RELEASE.j
+ ar mybatis-plus-generator-3.0.3.jar log4j-api-2.10.0.jar spring-boot-
+ starter-jdbc-2.0.1.RELEASE.jar spring-data-redis-2.0.6.RELEASE.jar sp
+ ring-core-5.0.5.RELEASE.jar spring-boot-starter-data-redis-2.0.1.RELE
+ ASE.jar validation-api-2.0.1.Final.jar spring-boot-starter-web-2.0.1.
+ RELEASE.jar spring-boot-starter-logging-2.0.1.RELEASE.jar spring-boot
+ -starter-2.0.1.RELEASE.jar HikariCP-2.7.8.jar mybatis-plus-3.0.3.jar 
+ spring-boot-2.0.1.RELEASE.jar mybatis-plus-annotation-3.0.3.jar jfina
+ l-3.5.jar cglib-nodep-3.2.5.jar jasypt-spring-boot-1.14.jar protobuf-
+ java-3.6.1.jar spring-boot-starter-cache-2.0.1.RELEASE.jar snakeyaml-
+ 1.19.jar jsqlparser-1.2.jar HdrHistogram-2.1.10.jar jackson-annotatio
+ ns-2.9.0.jar spring-beans-5.0.5.RELEASE.jar jackson-databind-2.9.5.ja
+ r mybatis-spring-1.3.2.jar jul-to-slf4j-1.7.25.jar jackson-module-par
+ ameter-names-2.9.5.jar caffeine-2.6.2.jar spring-data-keyvalue-2.0.6.
+ RELEASE.jar tomcat-embed-core-8.5.29.jar spring-jcl-5.0.5.RELEASE.jar
+  jasypt-1.9.2.jar jasypt-spring-boot-starter-1.14.jar spring-boot-act
+ uator-2.0.1.RELEASE.jar tio-websocket-server-3.2.1.v20181024-RELEASE.
+ jar spring-boot-starter-actuator-2.0.1.RELEASE.jar jboss-logging-3.3.
+ 2.Final.jar spring-context-support-5.0.5.RELEASE.jar tomcat-embed-web
+ socket-8.5.29.jar spring-boot-actuator-autoconfigure-2.0.1.RELEASE.ja
+ r spring-web-5.0.5.RELEASE.jar hibernate-validator-6.0.9.Final.jar ti
+ o-http-server-3.2.1.v20181024-RELEASE.jar mybatis-plus-extension-3.0.
+ 3.jar spring-webmvc-5.0.5.RELEASE.jar jedis-2.9.0.jar javax.servlet-a
+ pi-3.0.1.jar
+Main-Class: com.zhangwuji.im.CTServerApplication
+
