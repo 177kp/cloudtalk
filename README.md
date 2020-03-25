@@ -77,11 +77,9 @@
  **特别声明**
  本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
 
-官方技术交流QQ群(先star,后打赏任意金额加群):6445609 (请先star后，打赏任意金额(防止广告与恶意加群)，加群邀请时提供码账号，否则不给通过。)
+官方技术交流QQ群(先star,后打赏加群):6445609 (请先star后，打赏50以上加群，加群邀请时提供码账号，否则不给通过。)
 
 欢迎打赏,为后续开发注入动力!!  cloudtalk3.0即将发布,请关注 [开发者支持论坛](https://b56.cn)   
-
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1209/182328_e48f65ba_494527.png "alipay.png")
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/1209/182336_2437ce38_494527.png "weixin.png")
 
