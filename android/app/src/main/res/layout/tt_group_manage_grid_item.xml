@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/desktop_news_count_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+        <FrameLayout
+            android:layout_width="55dp"
+            android:layout_height="55dp">
+
+            <com.zhangwuji.im.ui.widget.IMBaseImageView
+                android:id="@+id/grid_item_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:adjustViewBounds="false"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:scaleType="centerCrop"
+                />
+            <ImageView
+                android:id="@+id/grid_item_image_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:visibility="gone"
+                android:src="@drawable/tt_group_tag_admin"/>
+
+            <LinearLayout
+                android:id="@+id/deleteLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:gravity="left|top"
+                android:visibility="invisible" >
+
+                <ImageView
+                    android:id="@+id/grid_delete_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tt_clear_bar" >
+                </ImageView>
+            </LinearLayout>
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/group_manager_user_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/group_manager_user_title"
+            android:textSize="13sp" >
+        </TextView>
+    </LinearLayout>
+

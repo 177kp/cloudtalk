@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+
+
+        <LinearLayout
+            android:id="@+id/gridlayout"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.zhangwuji.im.ui.widget.GroupManagerGridView
+                android:id="@+id/group_manager_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ececec"
+                android:gravity="center"
+                android:numColumns="5"
+                android:scrollbarStyle="outsideInset"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:verticalSpacing="5dp"
+                android:scrollbars="vertical"
+                />
+
+            <RelativeLayout
+                android:id="@+id/group_manager_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/group_manager_name_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/group_name_tip"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/group_manager_name_title"
+                    android:gravity="center_vertical|right"
+                    android:paddingLeft="6dp">
+
+                    <TextView
+                        android:id="@+id/group_manager_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|left"
+                        android:text="CloudTalk(108)"
+                        android:textColor="@color/group_manager_group_title"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+            <RelativeLayout
+                android:id="@+id/rl_qrcode"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="群二维码"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/iv_qrcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/a_5"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+            <RelativeLayout
+                android:id="@+id/group_manager_vote"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:id="@+id/group_manager_vote_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:text="群组通知"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/group_manager_vote_title"
+                    android:layout_alignBottom="@+id/group_manager_vote_title"
+                    android:layout_alignParentEnd="true"
+                    android:gravity="center_vertical|right"
+                    android:paddingLeft="6dp">
+
+                    <TextView
+                        android:id="@+id/tv_group_manager_vote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|left"
+                        android:text="群公告"
+                        android:textColor="@color/default_line_color"
+                        android:textSize="15sp" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+
+            <RelativeLayout
+                android:id="@+id/group_manager_dis_msg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="全体禁言"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/cb_dis_send_msg"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@color/toggle_checkbox_background"
+                    android:visibility="visible" />
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/no_disturb"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/NotificationNoDisturbCheckbox"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@color/toggle_checkbox_background"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/top_message"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/NotificationTopMessageCheckbox"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@color/toggle_checkbox_background"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+
+            <RelativeLayout
+                android:id="@+id/delete_group"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:visibility="gone"
+                android:paddingRight="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="20dp"
+                    android:layout_centerInParent="true"
+                    android:text="解散群组"
+                    android:textColor="#a3a2a8"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/tt_divide_line" />
+            <!--<View-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@drawable/tt_divide_line"-->
+                <!--/>-->
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

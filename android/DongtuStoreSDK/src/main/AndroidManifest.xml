@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dongtu.store">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+        <activity
+            android:name="com.dongtu.store.activity.DTStorePackageListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStoreAuthorHomepageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStoreEmojiDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStorePackageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStorePackageSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStorePackageSortingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.store.activity.DTStoreServiceDeclarationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dongtu.sdk.activity.ImageDetail"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name="com.dongtu.sdk.activity.DTWebViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ActionSheet左下圆角，其余直角 按压背景-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/actionsheet_cancel_press" android:state_pressed="true"/>
+    <item android:drawable="@drawable/actionsheet_cancel_normal"/>
+</selector>

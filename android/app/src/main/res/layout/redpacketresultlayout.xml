@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/ak2">
+
+        <LinearLayout
+            android:id="@+id/bt_fanhui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp" >
+            
+            <ImageView 
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ak6"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:background="#FFD39B" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hongbao_reshongbao_xiangqin"
+                    android:textColor="#FFD39B"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/app_name"
+                        android:textColor="#FFD39B"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="@string/hongbao_reshongbao_safepay"
+                        android:textColor="#FFD39B"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_top">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/alu" />
+
+            <com.zhangwuji.im.ui.widget.IMBaseImageView
+                android:id="@+id/iv_touxiang"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="35dp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_touxiang"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="hxh的红包"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/tv_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_name"
+                android:layout_toRightOf="@id/tv_name"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ak0"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/hongbao_sendtip1"
+                android:textColor="#c5c5c5" />
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="0.00元"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_detail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/hongbao_reshongbao_zhuanzhang"
+                android:textColor="#27408B"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_hongbaocount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_two"
+                android:layout_marginTop="20dp"
+                android:background="#f9f9f9"
+                android:orientation="horizontal"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_hongbaocount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="1个红包，1分钟被抢光"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.zhangwuji.im.ui.widget.xlistview.PullDownView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pull_down_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_hongbaocount"
+                android:background="@android:color/white"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:scrollbars="none" />
+
+            <View
+                android:id="@+id/v_one"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dp"
+                android:visibility="gone"
+                android:layout_below="@id/pull_down_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#cfcfcf" />
+
+            <TextView
+                android:id="@+id/tv_liuyan"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/v_one"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="留言"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/tv_liuyan"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:background="#F2F2F2">
+
+                <TextView
+                    android:id="@+id/tv_lookrecord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/hongbao_reshongbao_jilu"
+                    android:textColor="#27408B"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
