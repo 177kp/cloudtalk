@@ -1,6 +1,6 @@
 # cloudtalk
 
- **cloudtalk 3.0全新发布中。。** 
+ **cloudtalk 3.0全新发布** 
 
 
 #### 项目介绍
