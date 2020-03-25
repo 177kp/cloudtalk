@@ -11,7 +11,7 @@ enum ServiceID{
     SID_FILE            = 0x0005;
     SID_SWITCH_SERVICE  = 0x0006;
     SID_OTHER           = 0x0007;
-    SID_INTERNAL        = 0x0008;		     
+    SID_INTERNAL        = 0x0008;
 }
 
 // command id for login
@@ -168,17 +168,16 @@ enum SessionType{
 	SESSION_TYPE_GROUP = 2;          	//群会话
     SESSION_TYPE_SYSTEM = 3;            //系统消息
     SESSION_TYPE_NOTICE = 4;            //通知
-    SESSION_TYPE_CHATROOM = 5;            //聊天室
+    SESSION_TYPE_CHATROOM = 5;          //聊天室
+    SESSION_TYPE_PUBLICACCUNT = 6;      //公众号
 }
 
 enum MsgType{
-	MSG_TYPE_SINGLE_TEXT    = 0x01;
-    MSG_TYPE_SINGLE_AUDIO   = 0x02;
-    MSG_TYPE_GROUP_TEXT     = 0x11;
-    MSG_TYPE_GROUP_AUDIO    = 0x12;
+	MSG_TYPE_TEXT    = 0x01;
+    MSG_TYPE_AUDIO   = 0x02;
     MSG_TYPE_SYSTEM         = 0X88;    //系统消息--此类系统消息可能会要保存
     MSG_TYPE_NOTICE_FRIEND  = 0X89;    //好友相关通知消息 --此类消息一般不储存的
-    MSG_TYPE_NOTICE_SYSTEM  = 0X90;    //系统相关的通知  
+    MSG_TYPE_NOTICE_SYSTEM  = 0X90;    //系统相关的通知
 }
 
 enum ClientType{
@@ -301,12 +300,13 @@ message MsgInfo{
 	required uint32 create_time = 3;
 	required MsgType msg_type = 4;
 	required bytes msg_data = 5;
+	optional SessionType session_type = 6; //会话类型
 }
 
 message GroupVersionInfo{
 	required uint32 group_id = 1;
 	required uint32 version = 2;
-	
+
 }
 
 message GroupInfo{
@@ -316,7 +316,7 @@ message GroupInfo{
 	required string group_avatar = 4;
 	required uint32 group_creator_id = 5;
 	required GroupType group_type = 6;
-	required uint32 shield_status = 7;		//1: shield  0: not shield 
+	required uint32 shield_status = 7;		//1: shield  0: not shield
 	repeated uint32 group_member_list = 8;
 }
 
@@ -334,9 +334,9 @@ message PushResult{
 }
 
 message ShieldStatus{
-	required uint32 user_id = 1;		
-	required uint32 group_id = 2;	
-	required uint32 shield_status = 3;		//1: shield  0: not shield 
+	required uint32 user_id = 1;
+	required uint32 group_id = 2;
+	required uint32 shield_status = 3;		//1: shield  0: not shield
 }
 
 message OfflineFileInfo{

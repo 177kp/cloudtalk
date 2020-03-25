@@ -9,17 +9,21 @@ message IMMsgData{
 	required uint32 from_user_id = 1;				//消息发送方
 	required uint32 to_session_id = 2;				//消息接受方
 	required uint32 msg_id = 3;
-	required uint32 create_time = 4; 
+	required uint32 create_time = 4;
 	required IM.BaseDefine.MsgType msg_type = 5;
 	required bytes msg_data = 6;
 	optional uint32 to_user_id = 7; //消息接收uid  -add 用户向websocket发送群组消息等使用
+	optional string from_user_name = 8; //发送人昵称
+    optional string from_user_avatar = 9; //发送人头像
+    optional IM.BaseDefine.SessionType session_type = 10; //会话类型
+    optional uint32 need_save = 11; //是存需要保存在本地
 	optional bytes attach_data = 20;
 }
 
 message IMMsgDataAck{
 	//cmd id:		0x0302
 	required uint32 user_id = 1;			//发送此信令的用户id
-	required uint32 session_id = 2;				
+	required uint32 session_id = 2;
 	required uint32 msg_id = 3;
 	required IM.BaseDefine.SessionType session_type = 4;
 	optional uint32 to_user_id = 5; //消息接收uid  -add 用户向websocket发送群组消息等使用
@@ -28,7 +32,7 @@ message IMMsgDataAck{
 message IMMsgDataReadAck{
 	//cmd id:		0x0303
 	required uint32 user_id = 1;			//发送此信令的用户id
-	required uint32 session_id = 2;			
+	required uint32 session_id = 2;
 	required uint32 msg_id = 3;
 	required IM.BaseDefine.SessionType session_type = 4;
 	optional uint32 to_user_id = 5; //消息接收uid  -add 用户向websocket发送群组消息等使用
@@ -37,7 +41,7 @@ message IMMsgDataReadAck{
 message IMMsgDataReadNotify{
 	//cmd id:		0x0304
 	required uint32 user_id = 1;			//发送此信令的用户id
-	required uint32 session_id = 2;		
+	required uint32 session_id = 2;
 	required uint32 msg_id = 3;
 	required IM.BaseDefine.SessionType session_type = 4;
 	optional uint32 to_user_id = 5; //消息接收uid  -add 用户向websocket发送群组消息等使用
@@ -55,7 +59,7 @@ message IMClientTimeRsp{
 message IMUnreadMsgCntReq{
 	//cmd id:		0x0307
 	required uint32 user_id = 1;
-	optional bytes attach_data = 20;	
+	optional bytes attach_data = 20;
 }
 
 message IMUnreadMsgCntRsp{
@@ -110,7 +114,7 @@ message IMGetMsgByIdReq{
 	//cmd id: 		0x030d
 	required uint32 user_id = 1;
 	required IM.BaseDefine.SessionType session_type = 2;
-	required uint32 session_id = 3; 
+	required uint32 session_id = 3;
 	repeated uint32 msg_id_list = 4;
 	optional bytes attach_data = 20;
 }
