@@ -11,6 +11,10 @@ build() {
         mkdir lib
     fi
 
+    cd libsecurity/unix
+    ./build.sh
+    cd ../../
+
 	cd base
     cmake .
 	make
