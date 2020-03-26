@@ -17,6 +17,7 @@ case $1 in
             cp libsecurity.a ../lib/mac/
         else
             cp libsecurity.a ../lib/unix/
+            cp libsecurity.a ../../base/security/lib/linux
         fi
         ;;
 esac
