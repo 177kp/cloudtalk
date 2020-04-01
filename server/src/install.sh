@@ -74,6 +74,8 @@ yum -y install cmake
 yum -y install libuuid-devel
 yum -y install openssl-devel
 yum -y install curl-devel
+yum -y install maven
+yum -y install java
 echo "development library installation complete."
 echo "==========================================="
 sleep 2s
