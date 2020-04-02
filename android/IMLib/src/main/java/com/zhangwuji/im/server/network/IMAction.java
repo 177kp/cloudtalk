@@ -77,7 +77,7 @@ public class IMAction extends BaseAction {
     public void postFile(File file,int type,String fileName,final ResultCallback<String> callback)
     {
         MediaType MEDIA_TYPE_PNG = MediaType.parse("image/png");
-        String url = "http://im.cx01.vip:9701/upload";
+        String url = "http://im.b56.cn:9701/upload";
         if (file != null && file.exists()) {
             MultipartBody.Builder builder = new MultipartBody.Builder()
                     .setType(MultipartBody.FORM)
