@@ -224,19 +224,24 @@ void CWebSocketConn::OnRead()
 		char *b = "Connection: Upgrade";
 		string content = m_HttpParser.GetBodyContent();
 		if (strstr(in_buf, b) != NULL) {
+			char *c = "Sec-WebSocket-Key:";
+		    if (strstr(in_buf, c) != NULL) {
 
-			char request[1024] = {};
+				char request[1024] = {};
+				ws_respond->fetch_http_info(buff_);
+				ws_respond->parse_str(request);
 
-			ws_respond->fetch_http_info(buff_);
-			ws_respond->parse_str(request);
+				//发送握手回复
+				Send(request, (uint32_t)strlen(request));
 
-			//发送握手回复
-			Send(request, (uint32_t) strlen(request));
-
-			isHandshark = true;
-			m_state = WS_STATE_HANDSHARK;
-			memset(buff_, 0, sizeof(buff_));
-
+				isHandshark = true;
+				m_state = WS_STATE_HANDSHARK;
+				memset(buff_, 0, sizeof(buff_));
+		   }
+		   else
+		   {
+			 	Close();
+		   }
 		}
 		else
 		{
