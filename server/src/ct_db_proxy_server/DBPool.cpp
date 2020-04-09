@@ -404,10 +404,10 @@ CDBManager* CDBManager::getInstance()
 {
 	if (!s_db_manager) {
 		s_db_manager = new CDBManager();
-		if (s_db_manager->Init()) {
-			delete s_db_manager;
-			s_db_manager = NULL;
-		}
+		// if (s_db_manager->Init()) {
+		// 	delete s_db_manager;
+		// 	s_db_manager = NULL;
+		// }
 	}
 
 	return s_db_manager;
