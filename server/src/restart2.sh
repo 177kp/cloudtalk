@@ -13,17 +13,7 @@ function restart() {
     if [ -e server.pid  ]; then
         pid=`cat server.pid`
         echo "kill pid=$pid"
-        kill $pid
-        while true
-        do
-            oldpid=`ps -ef|grep $1|grep $pid`;
-            if [ $oldpid" " == $pid" " ]; then
-                echo $oldpid" "$pid
-                sleep 1
-            else
-                break
-            fi
-        done
+        kill -9 $pid
         ../daeml ./$2
     else 
         ../daeml ./$2
