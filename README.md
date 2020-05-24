@@ -31,8 +31,6 @@
 
  **cloudtalk web 测试版:**   http://webim.b56.cn    
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0728/223818_146a4ae9_494527.jpeg "D6E212450FF7764B2D1CD7E366226E63.jpg")
-
  **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/399711/download
 
  **cloudtalk ios 测试包:**  https://testflight.apple.com/join/csgTierA 
@@ -49,6 +47,15 @@
 
 
 #### App截图
+
+<div align="center">
+<img src="https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png" height="330" width="190" >
+
+<img src="https://images.gitee.com/uploads/images/2020/0524/230023_862faa65_494527.png" height="330" width="190" >
+
+<img src="https://images.gitee.com/uploads/images/2020/0524/225934_cb2d04ea_494527.png" height="330" width="190" >
+
+</div>
 
 ![群功能](https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png "screenshot_20200524_225138.png")
 
