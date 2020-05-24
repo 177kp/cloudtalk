@@ -50,24 +50,16 @@
 
 <div align="center">
 <img src="https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png" height="330" width="190" >
-
 <img src="https://images.gitee.com/uploads/images/2020/0524/230023_862faa65_494527.png" height="330" width="190" >
-
 <img src="https://images.gitee.com/uploads/images/2020/0524/225934_cb2d04ea_494527.png" height="330" width="190" >
-
 </div>
 
-![群功能](https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png "screenshot_20200524_225138.png")
 
-![群管理](https://images.gitee.com/uploads/images/2020/0524/230023_862faa65_494527.png "screenshot_20200524_225233.png")
-
-![朋友圈](https://images.gitee.com/uploads/images/2020/0524/225934_cb2d04ea_494527.png "screenshot_20200524_224842.png")
-
-![会话界面](https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png "screenshot_20190103_092934.png")
-
-![通讯录](https://images.gitee.com/uploads/images/2019/0103/093128_023ac1a6_494527.png "screenshot_20190103_092726.png")
-
-![发现](https://images.gitee.com/uploads/images/2019/0103/093157_7dcf2acd_494527.png "screenshot_20190103_092734.png")
+<div align="center">
+<img src="https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093128_023ac1a6_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093157_7dcf2acd_494527.png" height="330" width="190" >
+</div>
 
 ![群列表](https://images.gitee.com/uploads/images/2019/0103/093232_d8826898_494527.png "screenshot_20190103_092750.png")
 
