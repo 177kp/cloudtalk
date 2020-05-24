@@ -52,6 +52,7 @@
 <img src="https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png" height="330" width="190" >
 <img src="https://images.gitee.com/uploads/images/2020/0524/230023_862faa65_494527.png" height="330" width="190" >
 <img src="https://images.gitee.com/uploads/images/2020/0524/225934_cb2d04ea_494527.png" height="330" width="190" >
+
 </div>
 
 
@@ -59,27 +60,25 @@
 <img src="https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png" height="330" width="190" >
 <img src="https://images.gitee.com/uploads/images/2019/0103/093128_023ac1a6_494527.png" height="330" width="190" >
 <img src="https://images.gitee.com/uploads/images/2019/0103/093157_7dcf2acd_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093232_d8826898_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093254_82a327e5_494527.png" height="330" width="190" >
 </div>
 
-![群列表](https://images.gitee.com/uploads/images/2019/0103/093232_d8826898_494527.png "screenshot_20190103_092750.png")
-
-![新的朋友](https://images.gitee.com/uploads/images/2019/0103/093254_82a327e5_494527.png "screenshot_20190103_092759.png")
-
-![聊天页面](https://images.gitee.com/uploads/images/2019/0103/093317_808871da_494527.png "screenshot_20190103_092906.png")
-
-![云表情页面](https://images.gitee.com/uploads/images/2019/0103/093338_c5da6e8e_494527.png "screenshot_20190103_092845.png")
-
-![发送位置](https://images.gitee.com/uploads/images/2019/0103/093359_3cc12a22_494527.png "screenshot_20190103_092827.png")
-
-
-![音视频通话](https://images.gitee.com/uploads/images/2019/0103/093720_f3fd5f0c_494527.png "screenshot_20190103_092923.png")
+<div align="center">
+<img src="https://images.gitee.com/uploads/images/2019/0103/093317_808871da_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093338_c5da6e8e_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0103/093359_3cc12a22_494527.png " height="330" width="190">
+<img src="https://images.gitee.com/uploads/images/2019/0103/093720_f3fd5f0c_494527.png" height="330" width="190" >
+</div>
 
 #### Windows截图
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084521_e8420359_494527.png "QQ图片20190705084245.png")
 
+<div align="center">
+<img src="https://images.gitee.com/uploads/images/2019/0705/084521_e8420359_494527.png" height="330" width="190" >
+<img src="https://images.gitee.com/uploads/images/2019/0705/084534_673675f0_494527.png" height="330" width="190" >
+</div>
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084534_673675f0_494527.png "QQ图片20190705084254.png")
 
  **特别声明**
  本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
