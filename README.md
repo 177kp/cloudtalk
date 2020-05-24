@@ -13,7 +13,8 @@
 
 5. 提供商业定制空间
 
-6. 后续提供朋友圈，公众号等功能
+6. 朋友圈已发布beta版
+
 
 
 #### 项目介绍
@@ -31,7 +32,7 @@
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2019/0728/223818_146a4ae9_494527.jpeg "D6E212450FF7764B2D1CD7E366226E63.jpg")
 
- **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/324004/download
+ **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/399711/download
 
  **cloudtalk ios 测试包:**  https://testflight.apple.com/join/csgTierA 
 
@@ -43,17 +44,16 @@
 
 
 
-#### Windows截图
 
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084521_e8420359_494527.png "QQ图片20190705084245.png")
-
-
-![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084534_673675f0_494527.png "QQ图片20190705084254.png")
 
 
 #### App截图
 
+![群功能](https://images.gitee.com/uploads/images/2020/0524/230001_659ee585_494527.png "screenshot_20200524_225138.png")
 
+![群管理](https://images.gitee.com/uploads/images/2020/0524/230023_862faa65_494527.png "screenshot_20200524_225233.png")
+
+![朋友圈](https://images.gitee.com/uploads/images/2020/0524/225934_cb2d04ea_494527.png "screenshot_20200524_224842.png")
 
 ![会话界面](https://images.gitee.com/uploads/images/2019/0103/093049_537ceecd_494527.png "screenshot_20190103_092934.png")
 
@@ -73,6 +73,13 @@
 
 
 ![音视频通话](https://images.gitee.com/uploads/images/2019/0103/093720_f3fd5f0c_494527.png "screenshot_20190103_092923.png")
+
+#### Windows截图
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084521_e8420359_494527.png "QQ图片20190705084245.png")
+
+
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0705/084534_673675f0_494527.png "QQ图片20190705084254.png")
 
  **特别声明**
  本项目基于 teamtalk(https://github.com/mogutt 已不再更新维护) 项目二次开发并重新开源,本项目与原teamtalk架构和协议不再兼容。cloudtalk是则重于构建互联网对外即时通讯系统，支持企业云布署,多个app可使用同一服务端并相互不干扰。
