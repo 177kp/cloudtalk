@@ -892,12 +892,12 @@ bool CGroupModel::isValidateGroupId2(uint32_t nGroupId)
              }
              delete pResultSet2;
          }
-         pDBManager->RelDBConn(pDBConn);
          pCacheManager->RelCacheConn(pCacheConn);
       //--------------------------------------------------
       //---------------------------------------------------
      }
-
+     
+     pDBManager->RelDBConn(pDBConn);
 
     }
     else
