@@ -33,7 +33,7 @@
 
  **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/399711/download
 
- **cloudtalk ios 测试包:**  https://testflight.apple.com/join/csgTierA 
+ **cloudtalk ios 测试包:**  https://testflight.apple.com/join/csgTierA
 
  **cloudtalk windows PC测试包**  https://gitee.com/pwsns/cloudtalk/attach_files/252578/download
 
