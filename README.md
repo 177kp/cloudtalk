@@ -31,7 +31,7 @@
 
  **cloudtalk web 测试版:**   http://webim.b56.cn    
 
- **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/399711/download
+ **cloudtalk android 测试包:** https://gitee.com/pwsns/cloudtalk/attach_files/410148/download
 
  **cloudtalk ios 测试包:**  https://testflight.apple.com/join/csgTierA
 
